@@ -1,0 +1,4 @@
+jQuery(function(){(function(){var nav=jQuery('#branding'),button,menu;if(!nav){return;}
+button=nav.find('.menu-toggle');if(!button){return;}
+menu=nav.find('.root');if(!menu||!menu.children().length){button.hide();return;}
+jQuery('.menu-toggle').on('click',function(){nav.toggleClass('toggled-on');});})();});
